@@ -1,0 +1,21 @@
+*.class
+*.log
+.DS_Store
+
+# sbt specific
+*/dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# idea conf files
+.idea
+*.iml
+*.ipr
+*.iws
+
+# Scala-IDE specific
+.scala_dependencies
+api/modules/v1/dist
